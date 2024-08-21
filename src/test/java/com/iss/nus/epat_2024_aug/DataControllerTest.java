@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 public class DataControllerTest {
     @Autowired
-    DataController dataController;
+    DataController dataController;;
 
     @Test
     void healthCheck(){
